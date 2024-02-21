@@ -1,12 +1,9 @@
 package ehr.multiverse.kotlinbasics
 
 fun main(){
-    val num1 = readln().toInt()
-    val num2 = readln().toInt()
-    val result = add(num1,num2)
-    println("Sum of $num1 and $num2 is : $result")
 
-    println("Division of $num1 and $num2 is : " + divide(num1,num2))
+    var daisy = Dog("Daisy")
+    println("Daisy Breed is ${daisy.breed}")
 }
 
 fun add(num1: Int, num2: Int): Int {
