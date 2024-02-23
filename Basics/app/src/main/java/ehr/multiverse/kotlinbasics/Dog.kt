@@ -1,6 +1,6 @@
 package ehr.multiverse.kotlinbasics
 
-class Dog (val name: String = "", val breed: String = "poodle") {
+class Dog (val name: String = "", val breed: String = "poodle", var age: Int = 1) {
 
 
     init{
