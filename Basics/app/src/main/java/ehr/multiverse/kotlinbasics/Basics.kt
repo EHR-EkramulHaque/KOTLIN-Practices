@@ -7,7 +7,6 @@ fun main(){
 
     daisy.age=12
     println("Daisy age is ${daisy.age}\n")
-    println("Hel gsg lo Ekramul")
 
 //    val myBook = Book()
 //    println("Title of Book : ${myBook.title}")
