@@ -1,7 +1,6 @@
 package com.ehr.unitconverter
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
@@ -25,8 +24,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.modifier.modifierLocalConsumer
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.ehr.unitconverter.ui.theme.UnitConverterTheme
@@ -67,7 +64,7 @@ fun UnitConverter(){
         Row {
             //Here all the UI element will be stacked next to each other
 
-            Box(){//Left Select Button
+            Box {//Left Select Button
                 Button(onClick = { /*TODO*/ }) {
                     Text("Select")
                     Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrow Down")
@@ -82,7 +79,7 @@ fun UnitConverter(){
 
             Spacer(modifier = Modifier.width(16.dp))
 
-            Box(){//Right Select Button
+            Box {//Right Select Button
                 Button(onClick = { /*TODO*/ }) {
                     Text("Select")
                     Icon(Icons.Default.ArrowDropDown, contentDescription = "Arrow Down")
